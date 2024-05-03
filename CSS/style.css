@@ -1,0 +1,90 @@
+{
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #333;
+
+}
+#rehan{
+    position: relative;
+    width: 300px;
+
+}
+#rehan div{
+    position: relative;
+    display: grid;
+
+}
+#rehan div #value {
+    position: relative;
+    left: 8px;
+    margin-bottom: 12px;
+    grid-column: span 4;
+    height: 100px;
+    line-height: 100px;
+    padding: 0 20px;
+    border-radius: 10px;
+    background: #a7af7c;
+    text-align: right;
+    font-size: 1.5em;
+    color: #3a3c2e;
+    overflow: hidden;
+    box-shadow: inset 0 6px 1px 0 rgba(0,0,0,0.35), 0 5px 5px rgba(0,0,0,0.5), 0 15px 25px rgba(0,0,0,0.35);
+    user-select: none;
+    width: calc(100% - 16px);
+}
+#rehan div span{
+    position: relative;
+    padding: 10px;
+    margin: 6px;
+    min-width: 40px;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    border: 2px solid #222;
+    border-radius: 6px;
+    background: linear-gradient(#555353,#363535);
+    box-shadow: inset 0 6px 1px 0 rgba(0,0,0,0.35), 0 5px 5px rgba(0,0,0,0.5), 0 15px 25px rgba(0,0,0,0.35);
+    user-select: none;
+    cursor: pointer;
+    user-select: none;
+}
+#rehan div span::before{
+    contain: "";
+    position: absolute;
+    inset: 5px 3px ;
+    border-top: 1px solid #ccc;
+    filter: blur(20px);
+}
+#rehan div span:active{
+    box-shadow: inset 0 2px 2px 0 rgba(0,0,0,0.35),
+    inset 0 5px 15px rgba(0,0,0,0.5),
+    inset 0 15px  25px rgba(0,0,0,0.35);
+    color: #fff;
+    text-shadow: 0 0 5px #219cf3,
+    0 0 8px #219cf3;
+    
+} 
+#rehan div span#clear {grid-column: span;
+    background: #f44336;
+    color: #fff;
+
+
+}
+#rehan div span#plus{grid-row: span;
+    background: #31a935;
+    color: #fff;
+
+}
+#rehan div span#equal{
+    grid-row: span;
+    background: #219cf3;
+    color: #fff;
+
+}
