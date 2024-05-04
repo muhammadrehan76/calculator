@@ -74,6 +74,7 @@ body{
 #rehan div span#clear {grid-column: span;
     background: #f44336;
     color: #fff;
+    width: 50px;
 
 
 }
@@ -87,4 +88,7 @@ body{
     background: #219cf3;
     color: #fff;
 
+}
+#divt #plus{
+    height: 50px;
 }
