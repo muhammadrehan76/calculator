@@ -1,6 +1,4 @@
-{
 
-}
 body{
     display: flex;
     justify-content: center;
@@ -74,9 +72,7 @@ body{
 #rehan div span#clear {grid-column: span;
     background: #f44336;
     color: #fff;
-    width: 50px;
-
-
+   
 }
 #rehan div span#plus{grid-row: span;
     background: #31a935;
@@ -91,4 +87,14 @@ body{
 }
 #divt #plus{
     height: 50px;
+}
+#clear{
+    width: 50px;
+}
+#rehan div span#clear{
+    grid-column: span 2;
+    width: 90px;
+}
+#rehan div span#plus{
+    grid-row: span 2;
 }
